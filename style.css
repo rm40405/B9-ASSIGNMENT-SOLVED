@@ -348,3 +348,37 @@ height: 88px;
 top:45%;
 margin-left:40% ;
 }
+
+/* section 6 style */
+.section-6{
+    width: 1320px;
+height: 1163px;
+margin:0 auto;
+
+margin-top: 130px;
+}
+.section-6-title h5{
+    color: rgb(255, 0, 0);
+
+font-size: 24px;
+font-weight: 500
+}
+.section-6-title h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.section-6-title p{
+
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.section-6-images{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:10px;
+}

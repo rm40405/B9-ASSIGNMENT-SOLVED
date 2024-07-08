@@ -85,3 +85,105 @@ body{
 .section-1-image{
     background: url(happy-new-year-3d-letters-sign-coloful-background-blurred-fireworks-2024-new-year-party);
 }
+/* midnight style */
+.section-2{
+    width: 1320px;
+    height: 600px;
+    border:2px splid red;
+    background-color: rgba(0,0,0,0.3);
+    background-image: url(./new-years/new-year-offer-resources-main/images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:0 auto;
+     margin-top: 70px;
+     border-radius: 16px;
+    background-blend-mode: overlay;
+
+}
+.section-2-container{
+    
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display:flex;
+}
+.section-2-title{
+    width:50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-2-image{
+    width:50%;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-2-title p{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin-left: 80px;
+margin-top:20px;
+
+    
+}
+.section-2-title h1{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+}
+.section-2-image img{
+    width: 349.16px;
+height: 464.65px;
+}
+/* section 3 style */
+.section-3{
+    width: 1320px;
+height: 482px;
+barder:2px solid red;
+border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+margin:0 auto;
+margin-top:40px;
+}
+.section-3-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.section-3-heading h1{
+    font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+color:rgb(7, 2, 17);
+
+}
+.section-3-heading span{
+    font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+color:rgb(255, 0, 0);
+
+}
+.place{
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.date{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

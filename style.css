@@ -4,9 +4,84 @@
 body{
     font-family: "Merriweather", serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* banner style */
 .assignment-b9{
-    width:1320px;
-    height: 600px;
+   max-width:1320px;
+    min-height: 600px;
     border:2px solid red;
+    border-radius: 2px;
+    margin:0 auto;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.3);
+    background-image: url(./new-years/new-year-offer-resources-main/images/Banner\ Image.png);
+    background-position: center;
+    background-repeat:  no-repeat;
 
+    background-blend-mode: overlay;
+
+}
+.banner-content{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 600px;
+    
+}
+.banner-content h1{
+    font-weight:900px;
+     font-size: 72px;
+
+
+
+}
+.banner-content h5{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+.banner-content h5 ,h1{
+    color:white;
+}
+
+/* categories style */
+.section-1-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    
+
+}
+.secrion-1-heading h1{
+    color: rgb(241, 7, 7);
+    font-size: 88px;
+    font-weight: 700;
+    margin:80px 50px;
+    text-align: center;
+}
+.secrion-1-heading h5{
+
+    font-size: 24px;
+    font-weight: 400;
+    margin:20px 20px;
+    color:rgb(241, 7, 7);
+}
+.secrion-1-heading h2{
+    color:rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    margin:20px 20px;
+}
+.section-1-image{
+    background: url(happy-new-year-3d-letters-sign-coloful-background-blurred-fireworks-2024-new-year-party);
 }

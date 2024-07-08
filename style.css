@@ -382,3 +382,58 @@ margin-bottom: 30px;
     grid-template-columns: repeat(3,1fr);
     margin:10px;
 }
+
+/* section-7 style */
+.section-7{
+    width: 1320px;
+height: 616px;
+margin:0 auto;
+background-color:rgba(255, 0, 0, 0.05); 
+border-radius: 16px;
+margin-top: 50px;
+}
+.section-7-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1320px;
+    height: 416px;
+}
+.section-7-image img{
+    width: 250px;
+height: 250px;
+margin-top:200px;
+}
+.section-7-title h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.section-7-tilte p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+
+}
+.section-7-form{
+    width: 210px;
+height: 72px;
+margin-top:50px;
+margin-bottom: 50px;
+}
+.section-7-form input{
+    font-size:larger;
+}
+.section-7-form button{
+    font-size:x-large;
+    margin-top:20px;
+    background-color:brown;
+    border-radius: 10px;
+}

@@ -187,3 +187,164 @@ color:rgb(255, 0, 0);
     margin-left: 20px;
     margin-bottom: 20px;
 }
+/* offer section style */
+.section-4{
+    
+    width: 1320px;
+   height: 463px;
+   margin-top: 50px;
+   margin:0 auto;
+
+}
+.section-4-container{
+    display:flex;
+
+}
+.section-4-title{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:33%;
+    height: 463px;
+}
+.section-4-img{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:33%;
+    height: 463px;
+    
+    border: 15px solid rgb(255, 0, 0);
+    border-radius:15px;
+
+
+}
+.section-4-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:33%;
+    height: 463px;
+}
+.section-4-description img{
+    margin-top:50px;
+}
+.section-4-title h5{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.section-4-title h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-top: 20px;
+}
+.section-4-title p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-left: 40px;
+margin-top: 40px;
+}
+.section-4-description h2{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.section-4-description p{
+
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-left: 40px;
+}
+.section-4-description img{
+    
+background: linear-gradient(180.00deg, rgb(248, 246, 251) 16.255%,rgb(239, 220, 251) 88.723%);
+
+}
+/* section 5 holydays */
+.section-5{
+width: 1320px;
+height: 986.07px;
+
+margin:0 auto;
+margin-top: 50px;
+position: relative;
+}
+.section-5-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+height: 260px;
+margin:0 auto;
+text-align: center;
+
+    
+    
+    
+}
+.section-5-title h3{
+    margin-left: 400px;
+    width: 263px;
+height: 29px;
+color:rgb(7, 2, 17);
+align-items: center;
+margin-top:20px;
+margin-bottom: 20px;
+}
+.section-5-title h1{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+color:rgb(7, 2, 17);
+margin-bottom: 20px;
+
+}
+.section-5-title span{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+color:rgb(255, 0, 0);
+
+}
+.section-5-title p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+}
+.section-5-box{
+    width: 1320px;
+height: 329px;
+background-color: red;
+position: absolute;
+top:75%;
+}
+.section-5-image{
+    
+width: 674.82px;
+height: 577.96px;
+position: absolute;
+top:30%;
+margin-right: 600px;
+
+}
+.section-5-discount{
+    position: absolute;
+width: 114px;
+height: 88px;
+top:45%;
+margin-left:40% ;
+}
